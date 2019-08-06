@@ -1,5 +1,6 @@
-function fizzBuzz(limit) {
-    for(i = 0; i <= limit; i++) {
+function fizzBuzz(limit: number) {
+    let i:number;
+    for(i = 1; i <= limit; i++) {
         if(i % 3 == 0 && i % 5 == 0) {
             console.log("FizzBuzz");
         } else if(i % 3 == 0) {
@@ -11,3 +12,5 @@ function fizzBuzz(limit) {
         }
     }
 }
+
+fizzBuzz(10);

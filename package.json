@@ -1,0 +1,19 @@
+{
+  "name": "telerik-master-blockchain-class",
+  "version": "1.0.0",
+  "description": "Vitals Proxy API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start1": "npm run build && node ./dist/task1.js",
+    "start2": "npm run build && node ./dist/task2.js"
+  },
+  "author": "migrenaa",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3",
+    "typemoq": "2.1.0"
+  }
+}
