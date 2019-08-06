@@ -6,12 +6,16 @@
   "scripts": {
     "build": "tsc",
     "start1": "npm run build && node ./dist/task1.js",
-    "start2": "npm run build && node ./dist/task2.js"
+    "start2": "npm run build && node ./dist/task2.js",
+    "start3": "npm run build && node ./dist/task3.js"
   },
   "author": "migrenaa",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "request": "2.88.0"
+  },
   "devDependencies": {
+    "@types/node": "10.0.3",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3",
     "typemoq": "2.1.0"
